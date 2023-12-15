@@ -36,6 +36,7 @@ header {
   /* height: 30rem; */
   display: flex;
   background-color: #c9f2c7;
+  height: auto;
 }
 
 .hero-banner {
@@ -53,7 +54,7 @@ header {
   width: 100%;
 }
 
-h1 {
+.main-banner h1 {
   font-size: 48px;
   padding-right: 20vh;
 }
@@ -117,9 +118,9 @@ button:hover {
 .hero-img2,
 .hero-img3,
 .hero-img {
-  width: 125px;
-  height: 125px;
-  border: 3px solid #c7f9cc;
+  width: 200px;
+  height: 200px;
+  border: 4px solid #c7f9cc;
   margin-right: 50px;
   border-radius: 15px;
 }
@@ -163,17 +164,44 @@ button:hover {
 .hero-img3 img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-}
-
-.description p {
-  font-size: 15px;
-  flex: 1;
+  object-fit: fill;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 10px;
+}
+
+.description p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.quote-banner {
+  height: 400;
+  width: auto;
+  background-color: #e9f5db;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  height: 400px;
+  align-items: end;
+  font-size: 36px;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  flex-shrink: 0;
+}
+
+.quote-p p {
+  flex-shrink: 0;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.quote p {
+  text-align: justify;
 }
