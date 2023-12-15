@@ -7,13 +7,18 @@
   font-family: montserrat, roboto, sans-serif;
 }
 
-#logo {
+/* #logo {
   font-size: 24px;
   color: #a7c957;
   margin-left: 20%;
   cursor: pointer;
-}
+} */
 
+#logo img {
+  height: 70px;
+  margin-left: 40vh;
+  width: auto;
+}
 .navbar {
   padding: 20px;
   margin-right: 15%;
@@ -65,7 +70,7 @@ header {
   margin-top: 20px;
 }
 
-button {
+.hero-text button {
   background-color: #fff;
   border-radius: 10px;
   padding: 5px 25px;
@@ -85,7 +90,7 @@ button {
   margin-right: 300px;
 }
 
-img {
+.img-banner img {
   height: 400px;
   width: auto;
 }
@@ -137,7 +142,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  margin-left: 15vh;
+  justify-content: center;
 }
 
 .inf h1 {
