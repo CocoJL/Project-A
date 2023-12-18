@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url(https://i.pinimg.com/originals/71/9e/80/719e80760999b4c355a723224120eb07.png)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  background: transparent;
+  padding: 20px 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 20px;
+  position: relative;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}

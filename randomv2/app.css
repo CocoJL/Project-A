@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:wght@300;400&family=PT+Sans:ital@1&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: montserrat, sans serif;
+}
+
+header {
+  background: #fefae0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.link {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

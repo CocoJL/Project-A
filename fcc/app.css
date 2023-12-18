@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  height: 140px;
+  width: 140px;
+  border: 1px solid black;
+  background-color: blue;
+}
+.box-2 {
+  height: 140px;
+  width: 140px;
+  border: 1px solid black;
+  background-color: black;
+}
+.box-3 {
+  height: 140px;
+  width: 140px;
+  border: 1px solid black;
+}
